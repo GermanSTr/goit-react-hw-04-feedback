@@ -9,7 +9,6 @@ export const App = () => {
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
   const sumStateBtn = { good, neutral, bad };
-  console.log(Object.keys(sumStateBtn));
 
   const handleIncrement = option => {
     switch (option) {
